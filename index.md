@@ -265,9 +265,14 @@ Edit the text to match who can attend the workshop. For instance:
   for more information
 {% endcomment %}
 
-<p id="Registration">
+<p id="Registration"> 
+{% comment %}
+Update this part whit the correct link 
+{% endcomment %}
+
+
     <strong>Who can attend?:</strong>
-    If you are interested in attending this workshop ,<a href="{{ page.collaborative_notes }}"> Register now! </a> 
+    If you are interested in attending this workshop ,<a href="{{ https://forms.gle/VV85fDBUwK9sijPE7 }}"> Register now! </a> 
 </p>
 
 <hr/>
@@ -330,8 +335,8 @@ in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
 change the value of `carpentry` to `incubator`.
 </div>
 {% else %}
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<!-- <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p> -->
+<p><a href="{{ https://kaustforms.formstack.com/forms/unix_shell_data_scientists_feedback_fall_2022 }}">Post-workshop Survey</a></p>
 {% endif %}
 
 <hr/>
