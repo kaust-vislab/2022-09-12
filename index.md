@@ -266,13 +266,8 @@ Edit the text to match who can attend the workshop. For instance:
 {% endcomment %}
 
 <p id="Registration"> 
-{% comment %}
-Update this part whit the correct link 
-{% endcomment %}
-
-
-    <strong>Who can attend?:</strong>
-    If you are interested in attending this workshop ,<a href="{{ https://forms.gle/VV85fDBUwK9sijPE7 }}"> Register now! </a> 
+  <strong>Registration:</strong>
+  <a href="https://forms.gle/VV85fDBUwK9sijPE7">Register now!</a> 
 </p>
 
 <hr/>
@@ -321,9 +316,9 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<p>Please be sure to complete this surveys before and after the workshop.</p>
 {% if site.carpentry == "incubator" %}
-<p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
+<!-- <p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p> -->
 <p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
@@ -336,7 +331,7 @@ change the value of `carpentry` to `incubator`.
 </div>
 {% else %}
 <!-- <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p> -->
-<p><a href="{{ https://kaustforms.formstack.com/forms/unix_shell_data_scientists_feedback_fall_2022 }}">Post-workshop Survey</a></p>
+<p><a href="https://kaustforms.formstack.com/forms/unix_shell_data_scientists_feedback_fall_2022">Post-workshop Survey</a></p>
 {% endif %}
 
 <hr/>
