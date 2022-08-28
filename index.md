@@ -267,7 +267,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="Registration"> 
   <strong>Registration:</strong>
-  <a href="https://forms.gle/VV85fDBUwK9sijPE7">Register now!</a> 
+  <a href="https://kaustforms.formstack.com/forms/unix_shell_data_scientists_fall_2022">Register now!</a> 
 </p>
 
 <hr/>
